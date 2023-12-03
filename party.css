@@ -1,0 +1,31 @@
+ul {
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    flex: 1 1 300px;
+    max-height: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    background-color: lightgray;
+    border-radius: 50px;
+    overflow: auto;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  #addEvent {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    border:1px solid;
+    padding: 5px;
+    border-radius: 50px;
+    background-color: lightsteelblue;
+  }
+  h1 {
+    text-align: center;
+  }
